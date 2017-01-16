@@ -57,7 +57,7 @@ abstract class BackController extends ApplicationComponent
 
         $this->action = $action;
     }
-    
+
     public function setView($view)
     {
         if (!is_string($view) || empty($view))
